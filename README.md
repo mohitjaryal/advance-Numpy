@@ -38,7 +38,7 @@ This repo explores how NumPy works under the hood and how to use it like a pro.
 **Requirements:**
 - Python 3.9+
 - NumPy ≥ 1.26
-- (Optional) JupyterLab for interactive exploration
+- JupyterLab for interactive exploration
 
 **Setup:**
 ```bash
