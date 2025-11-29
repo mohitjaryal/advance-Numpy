@@ -1,7 +1,6 @@
 # 🧠 Advanced Python — Deep Dive
 
-This repository contains my notes, code examples, and practice exercises from the **Advanced Python** livestream on YouTube:
-🎥 [Watch here](https://www.youtube.com/live/40xGMygHMDU?si=EfrDiFr1Krhu-iq-)
+This repository contains my notes, code examples, and practice exercises from the **Advanced Python**
 
 The goal is to go beyond the basics and master the inner workings of Python — including object-oriented programming, decorators, generators, context managers, metaclasses, memory management, and performance optimization.
 
