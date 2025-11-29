@@ -7,14 +7,6 @@ This repo explores how NumPy works under the hood and how to use it like a pro.
 
 ---
 
-## 🚀 Topics Covered
-
-### 🧩 Core Array Concepts
-- Array creation and manipulation
-- Data types (`dtype`) and type casting
-- Shape, rank, and dimensionality
-- Views vs copies
-
 ### 🧠 Advanced Indexing & Slicing
 - Boolean, fancy, and structured indexing
 - Broadcasting rules
