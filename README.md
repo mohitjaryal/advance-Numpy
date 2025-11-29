@@ -52,7 +52,6 @@ This repo explores how NumPy works under the hood and how to use it like a pro.
 ```bash
 git clone https://github.com/mohitjaryal/advance-Numpy.git
 cd advance-Numpy
-pip install -r requirements.txt
 ```
 
 ## 🌐 Know & Connect More
