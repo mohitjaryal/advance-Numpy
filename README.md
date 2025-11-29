@@ -53,3 +53,10 @@ This repo explores how NumPy works under the hood and how to use it like a pro.
 git clone https://github.com/<your-username>/advanced-numpy.git
 cd advanced-numpy
 pip install -r requirements.txt
+```
+
+## 🌐 Know & Connect More
+
+### 🌍 Visit my website: mohitjaryal.online
+
+### 💬 Connect with me: Learn, share, and grow together.
