@@ -1,39 +1,55 @@
-# 🧠 Advanced Python — Deep Dive
+# ⚡ Advanced NumPy — Deep Dive into Numerical Python
 
-This repository contains my notes, code examples, and practice exercises from the **Advanced Python**
+This repository contains my notes, experiments, and practice notebooks from the **Advanced NumPy** 
 
-The goal is to go beyond the basics and master the inner workings of Python — including object-oriented programming, decorators, generators, context managers, metaclasses, memory management, and performance optimization.
+NumPy is the foundation of Python’s scientific stack — mastering it means writing *faster*, *cleaner*, and *more efficient* code.  
+This repo explores how NumPy works under the hood and how to use it like a pro.
 
 ---
 
 ## 🚀 Topics Covered
 
-### 🧩 Core Advanced Concepts
-- Iterators and Generators
-- Decorators and Closures
-- Context Managers
-- Metaclasses
-- Descriptors
-- Abstract Base Classes
+### 🧩 Core Array Concepts
+- Array creation and manipulation
+- Data types (`dtype`) and type casting
+- Shape, rank, and dimensionality
+- Views vs copies
 
-### ⚙️ Python Internals
-- Memory Management & Garbage Collection
-- Mutable vs Immutable Objects
-- The Python Data Model (`__dunder__` methods)
-- Interning and Object Identity
+### 🧠 Advanced Indexing & Slicing
+- Boolean, fancy, and structured indexing
+- Broadcasting rules
+- Strides and memory layout
+- Vectorization and eliminating loops
 
-### 🧵 Concurrency & Async
-- Multithreading vs Multiprocessing
-- AsyncIO and Event Loop
-- Performance Benchmarks
+### ⚙️ Performance Optimization
+- Using `np.vectorize`, `np.fromfunction`, `np.apply_along_axis`
+- Profiling NumPy code (`%timeit`, `cProfile`)
+- Memory efficiency and in-place operations
+- Comparing NumPy with pure Python loops
 
-### 🧰 Practical Python
-- Advanced File Handling
-- Functional Programming Techniques
-- Logging and Debugging
-- Writing Clean, Pythonic Code
+### 🧵 Linear Algebra & Randomness
+- Matrix operations (`dot`, `matmul`, `einsum`)
+- Eigenvalues, SVD, and decomposition
+- Random number generation with `numpy.random`
+- Statistical operations and sampling
+
+### 🧬 Under the Hood
+- How arrays are stored in memory (C-contiguous vs F-contiguous)
+- Broadcasting internals
+- UFuncs (Universal Functions) and how they work
+- Extending NumPy with custom UFuncs and C extensions
 
 ---
 
-## 📂 Repository Structure
+## 🧰 Tools & Setup
 
+**Requirements:**
+- Python 3.9+
+- NumPy ≥ 1.26
+- (Optional) JupyterLab for interactive exploration
+
+**Setup:**
+```bash
+git clone https://github.com/<your-username>/advanced-numpy.git
+cd advanced-numpy
+pip install -r requirements.txt
