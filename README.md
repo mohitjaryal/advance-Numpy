@@ -13,17 +13,20 @@ This repo explores how NumPy works under the hood and how to use it like a pro.
 - Strides and memory layout
 - Vectorization and eliminating loops
 
-### ⚙️ Performance Optimization
-- Using `np.vectorize`, `np.fromfunction`, `np.apply_along_axis`
-- Profiling NumPy code (`%timeit`, `cProfile`)
-- Memory efficiency and in-place operations
-- Comparing NumPy with pure Python loops
+### 🧮 Broadcasting 
+- Understand how NumPy automatically expands array shapes for arithmetic operations.
+- Perform element-wise operations without explicit loops.
+- Use broadcasting to simplify multi-dimensional mathematical expressions.
 
-### 🧵 Linear Algebra & Randomness
-- Matrix operations (`dot`, `matmul`, `einsum`)
-- Eigenvalues, SVD, and decomposition
-- Random number generation with `numpy.random`
-- Statistical operations and sampling
+### Custom Mathematical Formulas 
+- Create and apply your own mathematical formulas using vectorized NumPy operations.
+- Combine multiple arrays efficiently with element-wise functions.
+- Implement formulas using np.exp, np.log, and trigonometric functions.
+- Replace loops with vectorized expressions for faster execution.
+
+### Working with Missing Values using np.nan
+- Identify missing or invalid data using np.isnan.
+- Perform safe calculations while ignoring NaN values.
 
 ### 🧬 Under the Hood
 - How arrays are stored in memory (C-contiguous vs F-contiguous)
